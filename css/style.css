@@ -1,0 +1,342 @@
+/* CURRENTLY IN: styles/main.css */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/*****************  Boilerplate Styling  *************************/
+
+* {
+	box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+    background-color: #FFF;
+}
+
+/*****************   Custom CSS Styling  **************************/
+
+
+/******************************************
+/* HEADER
+/*******************************************/
+
+
+.flex-container {
+	display: flex;
+	margin: left;
+	padding: 60px 0 0 0;
+	width: 60%;
+}
+
+.logo {
+	overflow: hidden;
+}
+
+.logo-container {
+	float: left;
+	display: block;
+    padding: 50px 120px 10px 50px; 
+}
+
+/******************************************
+/* INVISIBLE SIDEBAR
+/*******************************************/
+
+#sidebar-space {
+	display: inline-block;
+  	width: 30%;
+  	height: 100%;
+  	float: left;
+}
+
+#sidebar-space ul {
+	content: center;
+}
+
+/*******************************************/
+/*NAV BAR*/
+/*******************************************/
+
+
+.nav {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	margin: 10px 0 0 0;
+	border-bottom: 2px white;
+	border-bottom: 2px white;
+	margin-bottom: 30px;
+}
+
+.nav-aTags {
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 16px;
+	text-decoration: none;
+    list-style-type: none;
+    color: #848482;
+}
+
+a:link {
+    background-color: transparent;
+}
+
+a:visited {
+    background-color: transparent;
+}
+
+a:hover {
+    background-color: transparent;
+    color: #00FFFF;
+}
+
+a:active {
+    background-color: transparent;
+}
+
+.removeDefaultUnderline {
+	text-decoration: none;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+}
+
+.h-line {
+	width: 100%;
+	height: 5px;
+	background: #00FFFF;
+}
+
+.h-line-2 {
+	width: 100%;
+	height: 15px;
+	background: #CCFFFF;
+}
+
+.h-line-3 {
+	width: 100%;
+	height: 35px;
+	background: #FFFFC2;
+}
+
+/*******************************************/
+/*DROPDOWN BUTTOM*/
+/*******************************************/
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: left;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: none;
+}
+
+.box {
+	height: 250px;
+	width: 350px;
+	display: inline-block;
+	float: left;
+    margin: 17px 17px 0 0;
+    text-align: justify;
+    font-size: 12px;
+}
+
+/*.box img {
+	display: block;
+	margin: 0 auto;
+}*/
+
+
+li.dropdown {
+	display: inline-block;
+}
+
+
+.dropdown-content {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	display: none;
+	position: absolute;
+	background-color: none;
+	min-width: 100%;
+	overflow: auto;
+}
+
+.dropdown-content a {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	color: #000;
+	padding: 12px 16px;
+	margin: 10px 0 0 0;
+	text-decoration: none;
+	text-align: left;
+	display: block;
+	float: left;
+}
+
+.dropdown-content a:hover {
+	background-color: none;
+}
+
+.show {
+	display: block;
+}
+
+/*******************************************/
+/*DROP-DOWN MENU CATEGORIES*/
+/*******************************************/
+
+.categories {
+	font-family: 'Roboto', sans-serif;
+	float: left;
+}
+
+.show {
+	display: block;
+}
+
+
+.categories-aTags {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	float: left;
+	margin: 10px 0 0 0;
+	list-style-type: none;
+    color: #B6B6B4;
+}
+
+/*******************************************/
+/*PORTFOLIO GRID*/
+/*******************************************/
+
+.grid-container {
+	width: 100%;
+	margin-left: 125px;
+	margin: 95px 0 20px 0px;
+}
+
+
+/*
+	*   css grid-container
+	*	width: xxxpx;
+	*   cente in the middle of the page
+
+	*   3 column grid
+	* 	guide xfrom developer matcher maker
+
+*/
+
+
+.box {
+	display: inline-block;
+	float: left;
+	text-align: left;
+   	margin: 0 10px 110px 10px;
+}
+
+/*.box img {
+	display: block;
+	margin: 0 auto;
+}*/
+
+
+
+}
+/*******************************************/
+/*EACH PAGE*/
+/*******************************************/
+
+.categories-aTags-light{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	text-align:center;
+	text-decoration: none;
+    list-style-type: none;
+    color: 848482;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 140%;
+	display: block;
+	margin: auto;
+}
+
+.descriptions {
+	font-family: 'Roboto', sans-serif;
+	height: 550px;
+	width: 60%;
+	font-size: 18px;
+	text-align: justify;
+	display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+	color: #2C3539;
+}
+
+/******************************************
+/*FOOTER*/
+/*******************************************/
+
+ .h-line-3-footer {
+	width: 100%;
+	height: 55px;
+	display: block;
+	background: #00FFFF;
+}
+
+/*.footer-content {
+  color: #848482;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 35px;
+  padding-top: 25px;
+  margin-top: 10px;
+}*/
