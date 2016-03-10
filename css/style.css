@@ -120,26 +120,37 @@ body {
 .nav {
 	width: 100%;
 	height: 100px;
+	margin: 0 0 0 25px;
 	position: relative;
+	background-color: #E0FFFF;
 }
 
 .nav__container {
-	font-family: 'Roboto', sans-serif;
 	width: 100%;
 	padding: 80px 0 0 0;
-	font-size: 14px;
-/*	text-decoration: none;
-    color: #B6B6B4;*/
+	text-decoration: none;
 }
 
 .menu--spaceRight {
-	padding: 0 40px 0 0
+	padding: 0 35px 0 0;
+}
+
+.nav__menu--links {
+	font-family: 'Quicksand', sans-serif;
+	display: inline-block;
+	margin-right: 7px;
+	font-size: 17px;
 }
 
 .nav__logo {
 	position: absolute;
 	top: 3.8em;
 	left: 2em;
+}
+
+a {
+	text-decoration: none;
+	color: #43BFC7;
 }
 
 
@@ -223,7 +234,7 @@ a:active {
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	color: #fff;
 	background: #2f3036;
 	text-decoration: none;
@@ -248,12 +259,12 @@ a:active {
 
 .grid {
 	width: 100%;
-	height: 75vh;
+	height: 70vh;
 	background: none;
 }
 
 .grid__container {
-	width: 80%;
+	width: 90%;
 	background: none;
 	float: right;
 }
@@ -267,7 +278,7 @@ a:active {
 .grid__items-box {
 	float: left;
 	width: 30%;
-	background: gray;
+	background: none;
 	height: 55vh;
 }
 
@@ -275,7 +286,7 @@ a:active {
 .grid__items-box2 {
 	float: left;
 	width: 30%;
-	background: grey;
+	background: none;
 	height: 50vh;
 }
 
@@ -299,12 +310,13 @@ a:active {
 .grid__item-portfoliopiece {  
 }
 
-.grid__item-text {
+.text-description {
 	font-family: 'Roboto', sans-serif;
 	display: block;
 	font-size: 13px;
 	text-align: left;
-	padding: 0 0 0 27px;
+	line-height: 130%;
+	padding: 10px 0 0 30px;
 }
 
 .grid__item-img {
