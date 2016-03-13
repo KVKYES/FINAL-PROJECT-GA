@@ -127,12 +127,12 @@ body {
 
 .nav__container {
 	width: 100%;
-	padding: 80px 0 0 0;
+	padding: 80px 0 0 125px;
 	text-decoration: none;
 }
 
 .menu--spaceRight {
-	padding: 0 25px 0 0;
+	padding: 0 40px 0 0;
 }
 
 .nav__menu--links {
@@ -242,19 +242,18 @@ a:active {
 .h-line-11 {
 	width: 100%;
 	height: 8px;
-	background: 
+	background: #FCDFFF;
+} 
 
-.h-line-11 {
+.h-line-12 {
 	width: 100%;
 	height: 5px;
-	background: #FCDFFF;
+	background: #F0FFFF;
 }
 
 
-
-
 /******************************************
-/*CATEGORIES
+/*CATEGORIES*
 /*******************************************/
 
 .categories {
@@ -293,7 +292,7 @@ a:active {
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: #fff;
 	background: #2f3036;
 	text-decoration: none;
@@ -384,7 +383,7 @@ a:active {
 }
 
 
-/*
+
 .grid-container {
 	width: 100%;
 	margin-left: 125px;
@@ -398,7 +397,7 @@ a:active {
 	text-align: left;
    	margin: 0 10px 110px 10px;
 }
-*/
+
 /*.box img {
 	display: block;
 	margin: 0 auto;
@@ -408,14 +407,14 @@ a:active {
 /*EACH PAGE*/
 /*******************************************/
 
-.categories-aTags-light{
+/*.categories-aTags-light{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
 	text-align:center;
 	text-decoration: none;
     list-style-type: none;
     color: 848482;
-}
+}*/
 
 p {
 	font-family: 'Roboto', sans-serif;
@@ -438,6 +437,53 @@ p {
     margin-right: 0;
 	color: #2C3539;
 }
+
+/******************************************
+/*POPUPS*/
+/*******************************************/
+
+#popup__container {
+	width: 100%;
+	margin: 30px 0 0 100px;
+	text-decoration: none;
+}
+
+#popup__container h1 {
+	font-family: 'Roboto', sans-serif;
+	width: 60%;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: left;
+	display: block;
+ 	margin: 100px 0 0 15px;
+	color: #848482;
+}
+
+#popup__container h2 {
+	font-family: 'Roboto', sans-serif;
+	width: 60%;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: left;
+	display: block;
+ 	margin: 0px 0 0 15px;
+	color: #848482;
+}
+
+#popup__container p {
+	font-family: 'Roboto', sans-serif;
+	width: 60%;
+	font-size: 12px;
+	text-align: justify;
+	display: block;
+	margin: 10px 0 0 15px;
+	color: #848482;
+}
+
+.popup-portfolio-pieces {
+	width: 50%;
+}
+
 
 
 /******************************************

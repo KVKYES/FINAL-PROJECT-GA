@@ -1,11 +1,11 @@
 var projectName;
 
-$('.box').on('click', function(){
+$('.grid__item-img').on('click', function(){
 	projectName = $(this).attr('data-project');
 	$('.'+projectName).show();
 });
 
-$('.box .close-btn').on('click', function(){
+$('.grid__item-img .close-btn').on('click', function(){
 	$(this).parent().hide();
 });
 
