@@ -79,8 +79,8 @@ body {
   	float: left;
 }
 
-#sidebar-space ul {
-	content: center;
+#sidebar-space li {
+	margin: 0 0 0 70px;
 }
 
 /*******************************************/
@@ -127,12 +127,12 @@ body {
 
 .nav__container {
 	width: 100%;
-	padding: 80px 0 0 125px;
+	padding: 80px 0 0 195px;
 	text-decoration: none;
 }
 
 .menu--spaceRight {
-	padding: 0 40px 0 0;
+	padding: 0 50px 0 0;
 }
 
 .nav__menu--links {
@@ -253,13 +253,8 @@ a:active {
 
 
 /******************************************
-/*CATEGORIES*
+/*DROP DOWN MENUS*
 /*******************************************/
-
-.categories {
-	font-family: 'Roboto', sans-serif;
-	float: left;
-}
 
 
 .categories-aTags {
@@ -279,37 +274,21 @@ a:active {
 	position: absolute;
 }
 
-/*Create a horizontal list with spacing*/
 .tutorialDefaultLinks {
-	display:inline-block;
-	float: left;
-	margin-right: 1px;
+	display: block;
 }
 
 .test {
 	display:block;
 	min-width:140px;
-	height: 50px;
-	text-align: center;
-	line-height: 50px;
+	height: 23px;
+	font-size: 15px;
+	text-align: left;
+	line-height: 65px;
 	font-family: 'Raleway', sans-serif;
-	color: #fff;
-	background: #2f3036;
+	color: #3B9C9C;
 	text-decoration: none;
 }
-
-
-/*******************************************/
-/***DROPDOWN***/
-/*******************************************/
-
-
-
-
-
-
-
-
 
 /*******************************************/
 /*PORTFOLIO GRID*/
@@ -319,6 +298,7 @@ a:active {
 	width: 100%;
 	height: 70vh;
 	background: none;
+	margin: 30px 0 0 0;
 }
 
 .grid__container {
@@ -384,11 +364,11 @@ a:active {
 
 
 
-.grid-container {
+/*.grid-container {
 	width: 100%;
 	margin-left: 125px;
 	margin: 95px 0 20px 0px;
-}
+}*/
 
 
 .box {
@@ -418,7 +398,7 @@ a:active {
 
 p {
 	font-family: 'Roboto', sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 140%;
 	display: block;
 	margin: auto;
@@ -438,6 +418,32 @@ p {
 	color: #2C3539;
 }
 
+.long-descriptions {
+	font-family: 'Roboto', sans-serif;
+	height: 550px;
+	width: 50%;
+	margin: 100px 0 0 400px;
+	font-size: 19px;
+	text-align: justify;
+	display: block;
+	color: #2C3539;
+}
+
+.photos {
+	margin: 0 auto;
+	width: 75%;
+	display: stack;
+}
+
+.minutiae-links ul li {
+	font-family: 'Raleway', sans-serif;
+	display: block;
+	text-align: left;
+	margin: 100px 0 0 600px;
+	font-size: 30px;
+	color: #3B9C9C;
+}
+
 /******************************************
 /*POPUPS*/
 /*******************************************/
@@ -445,44 +451,50 @@ p {
 .popup__container {
 	width: 100%;
 	margin: 30px 0 0 100px;
-	text-decoration: none;
+}
+
+.popup-descriptions-leftside {
+	width: 200px;
+	text-align: left;
 }
 
 h1 {
 	font-family: 'Roboto', sans-serif;
-	width: 60%;
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: 600;
 	text-align: left;
 	display: block;
- 	margin: 100px 0 0 15px;
+ 	margin: 50px 0 0 15px;
 	color: #848482;
 }
 
 h2 {
 	font-family: 'Roboto', sans-serif;
-	width: 60%;
-	font-size: 10px;
+	font-size: 9px;
 	font-weight: 300;
 	text-align: left;
 	display: block;
- 	margin: 5px 0 0 15px;
+ 	margin: 3px 0 0 15px;
 	color: #848482;
 }
 
 h3 {
 	font-family: 'Roboto', sans-serif;
-	width: 60%;
 	font-size: 8px;
 	text-align: justify;
 	display: block;
-	margin: 20px 0 0 15px;
+	margin: 16px 0 0 15px;
 	color: #848482;
 }
 
+.portfolio-container-rightside {
+	float: right;
+}
+
 .popup-portfolio-pieces {
-	max-width: 50%;
-	margin: 10px 0 0 15px;
+	width: 25%;
+	margin: 0px 0 0 15px;
+	display: inline-block;
 }
 
 
