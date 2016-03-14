@@ -5,7 +5,7 @@ $('.grid__item-img').on('click', function(){
 	$('.'+projectName).show();
 });
 
-$('.grid__item-img .close-btn').on('click', function(){
+$('.popup .close-btn').on('click', function(){
 	$(this).parent().hide();
 });
 

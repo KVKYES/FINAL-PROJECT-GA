@@ -58,15 +58,63 @@ body {
 	justify-content: center;
 }
 
-./*logo {
-	overflow: hidden;
+/******************************************
+/*LANDING PAGE STRIPES
+/*******************************************/
+
+.h-line-4 {
+	width: 100%;
+	height: 45px;
+	background: #F0FFFF;
 }
 
-.logo-container {
-	float: left;
-	display: block;
-    padding: 50px 120px 10px 50px; 
-}*/
+.h-line-5 {
+	width: 100%;
+	height: 65px;
+	background: #93FFE8;
+}
+
+.h-line-6 {
+	width: 100%;
+	height: 25px;
+	background: #5EFB6E;
+}
+
+.h-line-7 {
+	width: 100%;
+	height: 10px;
+	background: #00FFFF;
+}
+
+.h-line-8 {
+	width: 100%;
+	height: 50px;
+	background: #FFFF00;
+}
+
+.h-line-9 {
+	width: 100%;
+	height: 20px;
+	background: #9AFEFF;
+}
+
+.h-line-10 {
+	width: 100%;
+	height: 5px;
+	background: #00FFFF;
+}
+
+.h-line-11 {
+	width: 100%;
+	height: 8px;
+	background: #FCDFFF;
+} 
+
+.h-line-12 {
+	width: 100%;
+	height: 5px;
+	background: #F0FFFF;
+}
 
 /******************************************
 /* INVISIBLE SIDEBAR
@@ -86,48 +134,17 @@ body {
 /*******************************************/
 /*NAV BAR*/
 /*******************************************/
-/*
-#nav {
-	font-family: 'Roboto', sans-serif;
-	display: inline-block;
-	text-decoration: none;
-	list-style-type: none;
-	margin-right: 30px;
-	border-bottom: 2px white;
-	margin-bottom: 30px;
-}
-*/
-/*.nav {
-	font-family: 'Roboto', sans-serif;
-	text-decoration: none;
-	list-style-type: none;
-	margin: 10px 0 0 0;
-	border-bottom: 2px white;
-	border-bottom: 2px white;
-	margin-bottom: 30px;
-}*/
-
-/*.nav-aTags {
-	font-family: 'Roboto', sans-serif;
-	display: inline-block;
-	margin-right: 30px;
-	font-size: 16px;
-	text-decoration: none;
-    list-style-type: none;
-    color: #848482;
-}*/
 
 .nav {
 	width: 100%;
 	height: 100px;
-	margin: 0 0 0 25px;
 	position: relative;
 	background-color: #E0FFFF;
 }
 
 .nav__container {
 	width: 100%;
-	padding: 80px 0 0 195px;
+	padding: 80px 0 0 265px;
 	text-decoration: none;
 }
 
@@ -192,65 +209,6 @@ a:active {
 	height: 35px;
 	background: #FFFFC2;
 }
-
-/******************************************
-/*LANDING PAGE STRIPES
-/*******************************************/
-
-.h-line-4 {
-	width: 100%;
-	height: 45px;
-	background: #F0FFFF;
-}
-
-.h-line-5 {
-	width: 100%;
-	height: 65px;
-	background: #93FFE8;
-}
-
-.h-line-6 {
-	width: 100%;
-	height: 25px;
-	background: #5EFB6E;
-}
-
-.h-line-7 {
-	width: 100%;
-	height: 10px;
-	background: #00FFFF;
-}
-
-.h-line-8 {
-	width: 100%;
-	height: 50px;
-	background: #FFFF00;
-}
-
-.h-line-9 {
-	width: 100%;
-	height: 20px;
-	background: #9AFEFF;
-}
-
-.h-line-10 {
-	width: 100%;
-	height: 5px;
-	background: #00FFFF;
-}
-
-.h-line-11 {
-	width: 100%;
-	height: 8px;
-	background: #FCDFFF;
-} 
-
-.h-line-12 {
-	width: 100%;
-	height: 5px;
-	background: #F0FFFF;
-}
-
 
 /******************************************
 /*DROP DOWN MENUS*
@@ -354,7 +312,7 @@ a:active {
 	font-size: 13px;
 	text-align: left;
 	line-height: 130%;
-	padding: 10px 0 0 15px;
+	margin: 10px 0 0 25px;
 }
 
 .grid__item-img {
@@ -444,60 +402,6 @@ p {
 	color: #3B9C9C;
 }
 
-/******************************************
-/*POPUPS*/
-/*******************************************/
-
-.popup__container {
-	width: 100%;
-	margin: 30px 0 0 100px;
-}
-
-.popup-descriptions-leftside {
-	width: 200px;
-	text-align: left;
-}
-
-h1 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 11px;
-	font-weight: 600;
-	text-align: left;
-	display: block;
- 	margin: 50px 0 0 15px;
-	color: #848482;
-}
-
-h2 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 9px;
-	font-weight: 300;
-	text-align: left;
-	display: block;
- 	margin: 3px 0 0 15px;
-	color: #848482;
-}
-
-h3 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 8px;
-	text-align: justify;
-	display: block;
-	margin: 16px 0 0 15px;
-	color: #848482;
-}
-
-.portfolio-container-rightside {
-	float: right;
-}
-
-.popup-portfolio-pieces {
-	width: 25%;
-	margin: 0px 0 0 15px;
-	display: inline-block;
-}
-
-
 
 /******************************************
 /*CONTACT FORM*/
@@ -530,24 +434,83 @@ padding: 15px;
 	position: fixed;
 	/* etc kelley...remember the rock paper scissros */
 }
+
+.popup__container {
+	width: 100%;
+	margin: 30px 0 0 100px;
+}
+
+.popup-descriptions-leftside {
+	width: 250px;
+	text-align: left;
+	line-height: 15px;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: left;
+	display: block;
+ 	margin: 50px 0 0 15px;
+	color: #726E6D;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+	font-weight: 300;
+	text-align: left;
+	display: block;
+ 	margin: 3px 0 0 15px;
+	color: #726E6D;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	text-align: justify;
+	display: block;
+	margin: 16px 0 0 15px;
+	color: #726E6D;
+}
+
+/*.portfolio-container-rightside {
+	margin: 20px 40px 20px 30px;
+}*/
+
+.popup-portfolio-pieces {
+	width: 100%;
+	margin: 20px 40px 20px 30px;
+	display: inline-block;
+}
+
+.text-description-popup {
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	font-size: 13px;
+	text-align: left;
+	line-height: 130%;
+	padding: 10px 20px 40px 0px;
+	color: #726E6D;
+}
 /******************************************
 /*FOOTER*/
 /*******************************************/
 
- .h-line-3-footer {
+ .footer {
 	width: 100%;
-	height: 55px;
-	display: block;
-	background: #00FFFF;
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+	background-color: #E0FFFF;
+	margin: auto;
 }
 
-/*.footer-content {
-  color: #848482;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 15px;
-  text-align: left;
-  padding-left: 35px;
-  padding-top: 25px;
-  margin-top: 10px;
-}*
-
+ .bottom-info {
+	font-family: 'Raleway', sans-serif;
+ 	font-size: 15px;
+ 	text-align: center;
+ 	padding: 42px;
+ 	color: #000;
+}
