@@ -549,21 +549,6 @@ body {
 	background: #00FFFF;
 }
 
-/******************************************
-/* INVISIBLE SIDEBAR
-/*******************************************/
-
-/*#sidebar-space {
-	display: inline-block;
-  	width: 20%;
-  	height: 100%;
-  	float: left;
-}*/
-
-#sidebar-space li {
-	margin: 0 0 0 70px;
-}
-
 /*******************************************/
 /*NAV BAR*/
 /*******************************************/
@@ -641,6 +626,23 @@ a:active {
 	width: 100%;
 	height: 35px;
 	background: #FFFFC2;
+}
+
+
+.social-container {
+	float: left;
+  	width: 275px;
+  	height: 100px;
+  	border: solid 1px #000;
+  	margin: 200px 0 0 20px;
+}
+
+.social-buttons ul li {
+	display: inline-block;
+}
+
+.social-buttons img {
+	border: none;
 }
 
 
