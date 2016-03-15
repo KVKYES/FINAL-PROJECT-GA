@@ -120,12 +120,12 @@ body {
 /* INVISIBLE SIDEBAR
 /*******************************************/
 
-#sidebar-space {
+/*#sidebar-space {
 	display: inline-block;
   	width: 20%;
   	height: 100%;
   	float: left;
-}
+}*/
 
 #sidebar-space li {
 	margin: 0 0 0 70px;
@@ -431,20 +431,38 @@ padding: 15px;
 /*******************************************/
 .popup {
 	display: none; /* hidden on first load */
-	position: fixed;
 	/* etc kelley...remember the rock paper scissros */
+}
+
+.popup.shown {
+	position:absolute;
+	top:50%;
+	left:25%;
+	width:1200px;  /* adjust as per your needs */
+	margin-left:-200px;   /* negative half of width above */
+	margin-top:-200px;   /* negative half of height above */
+	background-color: #FEFCFF;
+	border-style: solid;
+    border-width: 20px;
+    border-color: #E0FFFF;
+	color: #726E6D;
+}
+
+.popup.shown .image {
 }
 
 .popup__container {
 	width: 100%;
-	margin: 30px 0 0 100px;
+	margin: 30px 0 0 150px;
 }
 
 .popup-descriptions-leftside {
-	width: 250px;
-	text-align: left;
-	line-height: 15px;
+	width: 50%;
+	float: left;
+	display: inline-block;
+	margin: 30px 100 0 30px;
 }
+
 
 h1 {
 	font-family: 'Roboto', sans-serif;
@@ -462,16 +480,13 @@ h2 {
 	font-weight: 300;
 	text-align: left;
 	display: block;
- 	margin: 3px 0 0 15px;
+ 	margin: 30px 100 0 30px;
 	color: #726E6D;
 }
 
 h3 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
-	text-align: justify;
-	display: block;
-	margin: 16px 0 0 15px;
 	color: #726E6D;
 }
 
@@ -481,11 +496,11 @@ h3 {
 
 .popup-portfolio-pieces {
 	width: 100%;
-	margin: 20px 40px 20px 30px;
-	display: inline-block;
+	float: right;
+	display: block;
 }
 
-.text-description-popup {
+.popup-captions-photos {
 	font-family: 'Roboto', sans-serif;
 	display: block;
 	font-size: 13px;
@@ -500,8 +515,8 @@ h3 {
 
  .footer {
 	width: 100%;
-	height: 100px;
-	position: absolute;
+	height: 70px;
+	position: fixed;
 	bottom: 0;
 	background-color: #E0FFFF;
 	margin: auto;
@@ -511,6 +526,6 @@ h3 {
 	font-family: 'Raleway', sans-serif;
  	font-size: 15px;
  	text-align: center;
- 	padding: 42px;
+ 	padding: 25px;
  	color: #000;
 }
