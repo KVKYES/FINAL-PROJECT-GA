@@ -62,6 +62,7 @@ body {
 /*LANDING PAGE STRIPES
 /*******************************************/
 
+
 .h-line-4 {
 	width: 100%;
 	height: 45px;
@@ -71,49 +72,481 @@ body {
 .h-line-5 {
 	width: 100%;
 	height: 65px;
-	background: #93FFE8;
+	background: #CCFFFF;
 }
 
 .h-line-6 {
 	width: 100%;
 	height: 25px;
-	background: #5EFB6E;
+	background: #00FFFF;
 }
 
 .h-line-7 {
 	width: 100%;
 	height: 10px;
-	background: #00FFFF;
+	background: #4EE2EC;
 }
 
 .h-line-8 {
 	width: 100%;
 	height: 50px;
-	background: #FFFF00;
+	background: #E0FFFF;
 }
 
 .h-line-9 {
 	width: 100%;
 	height: 20px;
-	background: #9AFEFF;
+	background: #50EBEC;
 }
 
 .h-line-10 {
 	width: 100%;
 	height: 5px;
-	background: #00FFFF;
+	background: #7DFDFE;
 }
 
 .h-line-11 {
 	width: 100%;
 	height: 8px;
-	background: #FCDFFF;
+	background: #00FFFF;
 } 
 
 .h-line-12 {
 	width: 100%;
 	height: 5px;
+	background: #CCFFFF;
+}
+
+.h-line-13 {
+	width: 100%;
+	height: 2px;
+	background: #4EE2EC;
+}
+
+.h-line-14 {
+	width: 100%;
+	height: 36px;
+	background: #93FFE8;
+}
+
+.h-line-15 {
+	width: 100%;
+	height: 20px;
+	background: #E0FFFF;
+}
+
+.h-line-16 {
+	width: 100%;
+	height: 5px;
 	background: #F0FFFF;
+}
+
+.h-line-17 {
+	width: 100%;
+	height: 15px;
+	background: #CCFFFF;
+}
+
+.h-line-18 {
+	width: 100%;
+	height: 25px;
+	background: #93FFE8;
+}
+
+.h-line-19 {
+	width: 100%;
+	height: 2px;
+	background: #4EE2EC;
+}
+
+.h-line-20 {
+	width: 100%;
+	height: 40px;
+	background: #E0FFFF;
+}
+
+.h-line-21 {
+	width: 100%;
+	height: 9px;
+	background: #50EBEC;
+}
+
+.h-line-22 {
+	width: 100%;
+	height: 5px;
+	background: #7DFDFE;
+}
+
+.h-line-23 {
+	width: 100%;
+	height: 15px;
+	background: #9AFEFF;
+} 
+
+.h-line-24 {
+	width: 100%;
+	height: 15px;
+	background: #CCFFFF;
+}
+
+.h-line-25 {
+	width: 100%;
+	height: 2px;
+	background: #4EE2EC;
+}
+
+.h-line-26 {
+	width: 100%;
+	height: 6px;
+	background: #93FFE8;
+}
+
+.h-line-27 {
+	width: 100%;
+	height: 10px;
+	background: #E0FFFF;
+}
+
+.h-line-28 {
+	width: 100%;
+	height: 60px;
+	background: #00FFFF;
+}
+
+.h-line-29 {
+	width: 100%;
+	height: 5px;
+	background: #F0FFFF;
+}
+
+.h-line-30 {
+	width: 100%;
+	height: 15px;
+	background: #CCFFFF;
+}
+
+.h-line-31 {
+	width: 100%;
+	height: 25px;
+	background: #00FFFF;
+}
+
+.h-line-32 {
+	width: 100%;
+	height: 10px;
+	background: #4EE2EC;
+}
+
+.h-line-33 {
+	width: 100%;
+	height: 23px;
+	background: #E0FFFF;
+}
+
+.h-line-34 {
+	width: 100%;
+	height: 10px;
+	background: #50EBEC;
+}
+
+.h-line-35 {
+	width: 100%;
+	height: 5px;
+	background: #7DFDFE;
+}
+
+.h-line-36 {
+	width: 100%;
+	height: 15px;
+	background: #FFFF00;
+} 
+
+.h-line-37 {
+	width: 100%;
+	height: 5px;
+	background: #CCFFFF;
+}
+
+.h-line-38 {
+	width: 100%;
+	height: 2px;
+	background: #4EE2EC;
+}
+
+.h-line-39 {
+	width: 100%;
+	height: 16px;
+	background: #93FFE8;
+}
+
+.h-line-40 {
+	width: 100%;
+	height: 25px;
+	background: #E0FFFF;
+}
+
+.h-line-41 {
+	width: 100%;
+	height: 5px;
+	background: #F0FFFF;
+}
+
+.h-line-42 {
+	width: 100%;
+	height: 15px;
+	background: #CCFFFF;
+}
+
+.h-line-43 {
+	width: 100%;
+	height: 25px;
+	background: #93FFE8;
+}
+
+.h-line-44 {
+	width: 100%;
+	height: 2px;
+	background: #4EE2EC;
+}
+
+.h-line-45 {
+	width: 100%;
+	height: 12px;
+	background: #E0FFFF;
+}
+
+.h-line-46 {
+	width: 100%;
+	height: 9px;
+	background: #50EBEC;
+}
+
+.h-line-47 {
+	width: 100%;
+	height: 5px;
+	background: #7DFDFE;
+}
+
+.h-line-48 {
+	width: 100%;
+	height: 25px;
+	background: #9AFEFF;
+} 
+
+.h-line-49 {
+	width: 100%;
+	height: 15px;
+	background: #CCFFFF;
+}
+
+.h-line-50 {
+	width: 100%;
+	height: 2px;
+	background: #4EE2EC;
+}
+
+.h-line-51 {
+	width: 100%;
+	height: 26px;
+	background: #93FFE8;
+}
+
+.h-line-52 {
+	width: 100%;
+	height: 10px;
+	background: #E0FFFF;
+}
+
+.h-line-53 {
+	width: 100%;
+	height: 40px;
+	background: #00FFFF;
+}
+
+.h-line-54 {
+	width: 100%;
+	height: 15px;
+	background: #9AFEFF;
+} 
+
+.h-line-55 {
+	width: 100%;
+	height: 15px;
+	background: #CCFFFF;
+}
+
+.h-line-56 {
+	width: 100%;
+	height: 2px;
+	background: #4EE2EC;
+}
+
+.h-line-57 {
+	width: 100%;
+	height: 6px;
+	background: #93FFE8;
+}
+
+.h-line-58 {
+	width: 100%;
+	height: 10px;
+	background: #E0FFFF;
+}
+
+.h-line-59 {
+	width: 100%;
+	height: 60px;
+	background: #00FFFF;
+}
+
+.h-line-60 {
+	width: 100%;
+	height: 5px;
+	background: #F0FFFF;
+}
+
+.h-line-61 {
+	width: 100%;
+	height: 15px;
+	background: #CCFFFF;
+}
+
+.h-line-62 {
+	width: 100%;
+	height: 25px;
+	background: #00FFFF;
+}
+
+.h-line-63 {
+	width: 100%;
+	height: 10px;
+	background: #4EE2EC;
+}
+
+.h-line-64 {
+	width: 100%;
+	height: 23px;
+	background: #E0FFFF;
+}
+
+.h-line-65 {
+	width: 100%;
+	height: 10px;
+	background: #50EBEC;
+}
+
+.h-line-66 {
+	width: 100%;
+	height: 5px;
+	background: #7DFDFE;
+}
+
+.h-line-67 {
+	width: 100%;
+	height: 8px;
+	background: #00FFFF;
+} 
+
+.h-line-68 {
+	width: 100%;
+	height: 5px;
+	background: #CCFFFF;
+}
+
+.h-line-69 {
+	width: 100%;
+	height: 2px;
+	background: #4EE2EC;
+}
+
+.h-line-70 {
+	width: 100%;
+	height: 16px;
+	background: #93FFE8;
+}
+
+.h-line-71 {
+	width: 100%;
+	height: 25px;
+	background: #E0FFFF;
+}
+
+.h-line-72 {
+	width: 100%;
+	height: 5px;
+	background: #F0FFFF;
+}
+
+.h-line-73 {
+	width: 100%;
+	height: 15px;
+	background: #CCFFFF;
+}
+
+.h-line-74 {
+	width: 100%;
+	height: 25px;
+	background: #93FFE8;
+}
+
+.h-line-75 {
+	width: 100%;
+	height: 2px;
+	background: #4EE2EC;
+}
+
+.h-line-76 {
+	width: 100%;
+	height: 12px;
+	background: #E0FFFF;
+}
+
+.h-line-77 {
+	width: 100%;
+	height: 14px;
+	background: #50EBEC;
+}
+
+.h-line-78 {
+	width: 100%;
+	height: 5px;
+	background: #7DFDFE;
+}
+
+.h-line-79 {
+	width: 100%;
+	height: 5px;
+	background: #9AFEFF;
+} 
+
+.h-line-80 {
+	width: 100%;
+	height: 15px;
+	background: #CCFFFF;
+}
+
+.h-line-81 {
+	width: 100%;
+	height: 2px;
+	background: #4EE2EC;
+}
+
+.h-line-82 {
+	width: 100%;
+	height: 26px;
+	background: #7DFDFE;
+}
+
+.h-line-83 {
+	width: 100%;
+	height: 10px;
+	background: #E0FFFF;
+}
+
+.h-line-84 {
+	width: 100%;
+	height: 40px;
+	background: #00FFFF;
 }
 
 /******************************************
@@ -209,6 +642,8 @@ a:active {
 	height: 35px;
 	background: #FFFFC2;
 }
+
+
 
 /******************************************
 /*DROP DOWN MENUS*
@@ -312,7 +747,7 @@ a:active {
 	font-size: 13px;
 	text-align: left;
 	line-height: 130%;
-	margin: 10px 0 0 25px;
+	margin: 10px 0 0 55px;
 }
 
 .grid__item-img {
@@ -397,7 +832,7 @@ p {
 	font-family: 'Raleway', sans-serif;
 	display: block;
 	text-align: left;
-	margin: 100px 0 0 600px;
+	margin: 100px 0 0 800px;
 	font-size: 30px;
 	color: #3B9C9C;
 }
