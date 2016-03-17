@@ -1,13 +1,12 @@
 var projectName;
 
 $('.grid__item-img').on('click', function(){
-	// projectName = $(this).attr('data-project');
-	// $('.'+projectName).show();
-	$('.popup').addClass('shown').show();
+	projectName = $(this).attr('data-project');
+	$('.'+projectName).addClass('shown').fadeIn();
 });
 
 $('.popup .close-btn').on('click', function(){
-	$(this).parent().hide();
+	$(this).parent().fadeOut();
 });
 
 

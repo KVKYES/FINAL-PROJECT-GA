@@ -63,15 +63,27 @@ body {
 /*******************************************/
 
 
+.here {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #FFFF00;
+	font-size: 90px;
+    margin: 0 auto;
+    width: 95%;
+    z-index: -1;
+
+}
+
 .h-line-4 {
 	width: 100%;
-	height: 45px;
+	height: 15px;
 	background: #F0FFFF;
 }
 
 .h-line-5 {
 	width: 100%;
-	height: 65px;
+	height: 27px;
 	background: #CCFFFF;
 }
 
@@ -89,7 +101,7 @@ body {
 
 .h-line-8 {
 	width: 100%;
-	height: 50px;
+	height: 18px;
 	background: #E0FFFF;
 }
 
@@ -161,7 +173,7 @@ body {
 
 .h-line-20 {
 	width: 100%;
-	height: 40px;
+	height: 20px;
 	background: #E0FFFF;
 }
 
@@ -209,7 +221,7 @@ body {
 
 .h-line-28 {
 	width: 100%;
-	height: 60px;
+	height: 20px;
 	background: #00FFFF;
 }
 
@@ -239,7 +251,7 @@ body {
 
 .h-line-33 {
 	width: 100%;
-	height: 23px;
+	height: 13px;
 	background: #E0FFFF;
 }
 
@@ -257,7 +269,7 @@ body {
 
 .h-line-36 {
 	width: 100%;
-	height: 15px;
+	height: 9px;
 	background: #FFFF00;
 } 
 
@@ -329,7 +341,7 @@ body {
 
 .h-line-48 {
 	width: 100%;
-	height: 25px;
+	height: 12px;
 	background: #9AFEFF;
 } 
 
@@ -395,7 +407,7 @@ body {
 
 .h-line-59 {
 	width: 100%;
-	height: 60px;
+	height: 20px;
 	background: #00FFFF;
 }
 
@@ -467,7 +479,7 @@ body {
 
 .h-line-71 {
 	width: 100%;
-	height: 25px;
+	height: 20px;
 	background: #E0FFFF;
 }
 
@@ -550,6 +562,14 @@ body {
 }
 
 /*******************************************/
+/*ASIDE LOGO*/
+/*******************************************/
+
+/*When I make an aside, it changes my nav bar completely. 
+I feel like the structure of the nav bar with logo is all wrong. 
+I'm afraid to touch it anymore.*/
+
+/*******************************************/
 /*NAV BAR*/
 /*******************************************/
 
@@ -628,22 +648,22 @@ a:active {
 	background: #FFFFC2;
 }
 
-
 .social-container {
 	float: left;
   	width: 275px;
-  	height: 100px;
-  	border: solid 1px #000;
-  	margin: 200px 0 0 20px;
+  	height: 50px;
+  	/*border: solid 1px #000;*/
+  	/*display: inline-block;*/
+  	margin: 400px 0 0 20px;
 }
 
-.social-buttons ul li {
+.social-btns {
 	display: inline-block;
 }
 
-.social-buttons img {
+/*.social-buttons img {
 	border: none;
-}
+}*/
 
 
 
@@ -845,7 +865,9 @@ p {
 /*******************************************/
 
 .contact-form {
+	font-family: 'Roboto', sans-serif;
 	float: left;
+	color: #2C3539;
 }
 
 input {
@@ -878,7 +900,7 @@ padding: 15px;
 	width:1200px;  /* adjust as per your needs */
 	margin-left:-200px;   /* negative half of width above */
 	margin-top:-200px;   /* negative half of height above */
-	background-color: #FEFCFF;
+	background-color: #F0FFFF;
 	border-style: solid;
     border-width: 20px;
     border-color: #E0FFFF;
@@ -888,53 +910,61 @@ padding: 15px;
 .popup.shown .image {
 }
 
-.popup__container {
+/*.popup .close-btn {
+	font-size: 10px;  
+    line-height: 15px;  
+    right: 5px;  
+    top: 5px;  
+    position: absolute;  
+    color: #CCFFFF;  
+    font-weight: 300;
+}*/
+
+.popup-container {
 	width: 100%;
-	margin: 30px 0 0 150px;
+	padding: 15px;
 }
 
 .popup-descriptions-leftside {
-	width: 50%;
+	width: 28%;
 	float: left;
-	display: inline-block;
-	margin: 30px 100 0 30px;
+	line-height: 150%;
+	padding: 15px;
+}
+
+.portfolio-container-rightside {
+	width: 70%;
+	margin-left: 30%;
+	padding: 0px;
+}
+
+.popup-portfolio-pieces img {
+	max-width: 100%;
 }
 
 
 h1 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 600;
-	text-align: left;
-	display: block;
- 	margin: 50px 0 0 15px;
+	text-align: justify;
+	line-height: 120%;
 	color: #726E6D;
 }
 
 h2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 10px;
+	font-size: 14px;
 	font-weight: 300;
-	text-align: left;
-	display: block;
- 	margin: 30px 100 0 30px;
+	text-align: justify;
 	color: #726E6D;
 }
 
 h3 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
+	text-align: justify;
 	color: #726E6D;
-}
-
-/*.portfolio-container-rightside {
-	margin: 20px 40px 20px 30px;
-}*/
-
-.popup-portfolio-pieces {
-	width: 100%;
-	float: right;
-	display: block;
 }
 
 .popup-captions-photos {
@@ -946,6 +976,13 @@ h3 {
 	padding: 10px 20px 40px 0px;
 	color: #726E6D;
 }
+
+.close-btn {
+	font-family: 'Roboto', sans-serif;
+	color: #F70D1A;
+	font-size: 15px;
+}
+
 /******************************************
 /*FOOTER*/
 /*******************************************/
