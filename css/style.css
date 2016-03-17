@@ -71,7 +71,6 @@ body {
 	font-size: 90px;
     margin: 0 auto;
     width: 95%;
-    z-index: -1;
 
 }
 
@@ -562,25 +561,13 @@ body {
 }
 
 /*******************************************/
-/*ASIDE LOGO*/
-/*******************************************/
-
-/*I feel like my naming structure is all off somehow. 
-Theplace,ent of the kvkyes logo and the h-lines are all in
-the wrong place.*/
-
-/*When I make an aside, it changes my nav bar completely. 
-I feel like the structure of the nav bar with logo is all wrong. 
-I'm afraid to touch it anymore.*/
-
-/*******************************************/
 /*NAV BAR*/
 /*******************************************/
 
 .nav {
 	width: 100%;
-	height: 100px;
-	position: relative;
+	height: 83px;
+	position: fixed;
 	background-color: #E0FFFF;
 	border-bottom: solid 5px;
 	border-bottom-color: #00FFFF;
@@ -588,7 +575,7 @@ I'm afraid to touch it anymore.*/
 
 .nav__container {
 	width: 100%;
-	padding: 75px 0 0 215px;
+	padding: 55px 0 0 215px;
 	text-decoration: none;
 }
 
@@ -601,12 +588,6 @@ I'm afraid to touch it anymore.*/
 	display: inline-block;
 	margin-right: 0px;
 	font-size: 17px;
-}
-
-.aside__logo {
-	top: 2.8em;
-	left: 4em;
-	float: left;
 }
 
 a {
@@ -646,6 +627,19 @@ a:active {
 	width: 100%;
 	height: 30px;
 	background: #FFFFCC;
+}
+
+/*******************************************/
+/*ASIDE LOGO*/
+/*******************************************/
+
+.aside__logo {
+	top: 2.8em;
+	left: 4em;
+}
+
+.aside__logo-img {
+	position: fixed;
 }
 
 
@@ -688,6 +682,22 @@ a:active {
 	text-decoration: none;
 }
 
+
+/*******************************************/
+/*FIRST PAGE AFTER LANDING*/
+/*******************************************/
+
+.about p {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #FFFF00;
+	font-size: 90px;
+    margin: 100px 0 0 400px;
+    width: 95%;
+}
+
+
 /*******************************************/
 /*PORTFOLIO GRID*/
 /*******************************************/
@@ -696,7 +706,7 @@ a:active {
 	width: 100%;
 	height: 70vh;
 	background: none;
-	margin: 0px 0 0 0;
+	margin: 0px 0 0 -75px;
 }
 
 .grid__container {
@@ -752,7 +762,7 @@ a:active {
 	font-size: 13px;
 	text-align: left;
 	line-height: 130%;
-	margin: 10px 0 0 55px;
+	margin: 10px 0 0 23px;
 }
 
 .grid__item-img {
@@ -837,8 +847,8 @@ p {
 	font-family: 'Raleway', sans-serif;
 	display: block;
 	text-align: left;
-	margin: 100px 0 0 800px;
-	font-size: 30px;
+	margin: 100px 0 0 500px;
+	font-size: 20px;
 	color: #3B9C9C;
 }
 
