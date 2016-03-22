@@ -559,6 +559,9 @@ body {
 	height: 40px;
 	background: #00FFFF;
 }
+@media only screen and (max-width: 767px){
+
+}
 
 /*******************************************/
 /*NAV BAR*/
@@ -587,7 +590,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	display: inline-block;
 	margin-right: 0px;
-	font-size: 17px;
+	font-size: 1.5625em;
 }
 
 a {
@@ -643,7 +646,6 @@ a:active {
 }
 
 
-
 /******************************************
 /*DROP DOWN MENUS*
 /*******************************************/
@@ -651,10 +653,10 @@ a:active {
 
 .categories-aTags {
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
+	font-size: .9375em;
 	text-decoration: none;
 	float: left;
-	margin: 10px 0 0 0;
+	margin: .6250em 0 0 0;
 	list-style-type: none;
 	background-color: #FFF;
     color: #B6B6B4;
@@ -675,27 +677,12 @@ a:active {
 	display:block;
 	min-width:140px;
 	height: 23px;
-	font-size: 15px;
+	font-size: .9375em;
 	text-align: left;
 	line-height: 65px;
 	font-family: 'Raleway', sans-serif;
 	color: #3B9C9C;
 	text-decoration: none;
-}
-
-
-/*******************************************/
-/*FIRST PAGE AFTER LANDING*/
-/*******************************************/
-
-.about p {
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	letter-spacing: 1px;
-	color: #FFFF00;
-	font-size: 90px;
-    margin: 100px 0 0 400px;
-    width: 95%;
 }
 
 
@@ -755,25 +742,16 @@ a:active {
 .text-description {
 	font-family: 'Roboto', sans-serif;
 	display: block;
-	font-size: 13px;
+	font-size: 1.1250em;
 	text-align: left;
 	line-height: 130%;
-	margin: 10px 0 0 28px;
+	margin: 10px 0 0 12px;
 }
 
 .grid__item-img {
 	display: block;
 	margin: 0 auto;
 }
-
-
-
-/*.grid-container {
-	width: 100%;
-	margin-left: 125px;
-	margin: 95px 0 20px 0px;
-}*/
-
 
 .box {
 	display: inline-block;
@@ -782,22 +760,36 @@ a:active {
    	margin: 0 10px 110px 10px;
 }
 
-/*.box img {
-	display: block;
-	margin: 0 auto;
-}*/
-
 /*******************************************/
 /*EACH PAGE*/
 /*******************************************/
 
-p {
-	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
-	line-height: 150%;
-	display: block;
-	margin: auto;
+.about p {
+	font-family: 'Raleway', sans-serif;
 	position: absolute;
+	margin: 200px 0 0 450px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #FF00FF;
+	font-size: 1.4375em;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.3750em;
+	line-height: 160%;
+	display: stack;
+	margin: 0 auto;
+}
+
+.scratches-drawing {
+	display: stack;
+	width: 300px;
+	height: 200px;
+	z-index: 15;
+	top: 50%;
+	left: 50%;
+
 }
 
 .descriptions {
@@ -815,38 +807,35 @@ p {
 }
 
 .long-descriptions {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	width: 35%;
-	margin: 0 0 0 825px;
-	font-size: 18px;
+	margin: -37em 0 0 825px;
+	/*font-size: .8750em;*/
 	line-height: 30px;
 	text-align: justify;
 	color: #6D7B8D;
-	position: relative;
+	display: stack;
 }
 
 .band-text-description {
 	font-family: 'Roboto', sans-serif;
 	display: block;
-	font-size: 13px;
+	font-size: 1.1250em;
 	text-align: left;
 	line-height: 130%;
 	margin: 7px 0 0 0;
 }
 
 .photos {
-	margin: 35px 0 0 385px;
+	margin: 35px 0 0 335px;
 	width: 75%;
 	display: stack;
 }
 
-.minutiae-links ul li {
-	font-family: 'Raleway', sans-serif;
-	display: block;
-	text-align: left;
-	margin: 100px 0 0 500px;
-	font-size: 20px;
-	color: #3B9C9C;
+.soundcloud {
+	margin: 50px 0 0 0px;
+	width: 100%;
+	display: stack;
 }
 
 
@@ -856,7 +845,9 @@ p {
 
 .contact-form {
 	font-family: 'Roboto', sans-serif;
-	float: left;
+	position: absolute;
+	margin: 300px 0 0 450px;
+	width: 30%;
 	color: #2C3539;
 }
 
@@ -867,6 +858,12 @@ height: 30px;
 
 input[type=“text”] {
 width: 80%;
+border:solid 1px #333;
+}
+
+input[type=“textMessage”] {
+width: 80%;
+height: 200%;
 border:solid 1px #333;
 }
 
@@ -991,7 +988,7 @@ h3 {
 
  .bottom-info {
 	font-family: 'Raleway', sans-serif;
- 	font-size: 15px;
+ 	font-size: 1.3125em;
  	text-align: center;
  	padding: 25px;
  	color: #000;
