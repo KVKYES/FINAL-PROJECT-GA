@@ -559,9 +559,6 @@ body {
 	height: 40px;
 	background: #00FFFF;
 }
-@media only screen and (max-width: 767px){
-
-}
 
 /*******************************************/
 /*NAV BAR*/
@@ -595,7 +592,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: #000;
+	color: #6D7B8D;
 }
 
 
@@ -659,7 +656,7 @@ a:active {
 	margin: .6250em 0 0 0;
 	list-style-type: none;
 	background-color: #FFF;
-    color: #B6B6B4;
+    color: #77BFC7;
 }
 
 .tutorialDefault {
@@ -681,8 +678,9 @@ a:active {
 	text-align: left;
 	line-height: 65px;
 	font-family: 'Raleway', sans-serif;
-	color: #3B9C9C;
+	color: #77BFC7;
 	text-decoration: none;
+	background-color: #FFF;
 }
 
 
@@ -767,11 +765,25 @@ a:active {
 .about p {
 	font-family: 'Raleway', sans-serif;
 	position: absolute;
-	margin: 200px 0 0 450px;
+	margin: 200px 0 0 400px;
+	width: 55%;
 	text-align: center;
+	border-radius: 25px;
+    background: #FFFFC2
+
+;
+    padding: 20px; 
+    height: 100%; 
 	letter-spacing: 1px;
-	color: #FF00FF;
+	color: #000;
 	font-size: 1.4375em;
+}
+
+.rounded-4 {
+	width: 35%;
+	height: 100%;
+	border-radius: 25px;
+    background: #FFFF00;
 }
 
 p {
